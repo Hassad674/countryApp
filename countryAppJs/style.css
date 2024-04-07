@@ -1,0 +1,107 @@
+/* Conteneur pour les filtres */
+.filter-container {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* Style pour les champs de formulaire */
+.form-control {
+  margin: 20px auto;
+  display: block;
+  font-size: 1.4rem;
+  text-align: center;
+  width: 300px;
+  padding: 10px 15px;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  transition: border-color 0.3s ease;
+}
+
+/* Style pour les champs de formulaire en focus */
+.form-control:focus {
+  outline: none;
+  border-color: #6c757d;
+}
+
+/* Conteneur pour la plage de valeurs */
+.range-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Style pour la plage de valeurs */
+.form-range {
+  width: 250px;
+  margin-right: 10px;
+}
+
+/* Style pour l'affichage de la valeur de la plage de valeurs */
+#rangeValue {
+  font-size: 1.2rem;
+  margin-top: -3px;
+}
+
+/* Bouton de tri */
+.btnSort {
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+/* Style du bouton de tri au survol */
+.btnSort:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Conteneur pour les cartes de pays */
+.countries-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style des cartes de pays */
+.card {
+  flex: 1 0 20%;
+  min-width: 260px;
+  background: rgb(17, 17, 17);
+  margin: 5px;
+  color: rgb(245, 245, 245);
+  border-radius: 20px;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Style pour les images dans les cartes */
+img {
+  height: 100px;
+  width: 160px;
+  object-fit: cover;
+}
+
+/* Style des cartes de pays */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  background: rgb(17, 17, 17);
+  color: rgb(245, 245, 245);
+  border-radius: 20px;
+  max-width: 200px;
+  height: auto;
+}
+
+/* Style pour les images dans les cartes */
+.card img {
+  width: auto;
+  max-height: 100px;
+  margin-bottom: 10px;
+}
